@@ -41,7 +41,7 @@ if model is None or scaler is None:
 
 # Header image
 try:
-    image = Image.open("business_people.png")
+    image = Image.open("group-business-people-silhouette-businesspeople-abstract-background_656098-461.avif")
     st.image(image, use_container_width=True)
 except FileNotFoundError:
     st.warning("Header image not found. Skipping image display.")
@@ -111,4 +111,5 @@ st.caption("""
 Disclaimer: This prediction model is for research and informational purposes only.  
 Version 1.0, © 2025 CHOONG MUH IN (TP068331) — Last updated: August 2025.  
 """)
+
 
